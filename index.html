@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather_main"></div>
+        <div class="weather_inner flex flex-col justify-center gap-6">
+            <div class="weather_search_main">
+                <div class="weather_search_inner flex flex-col justify-center gap-6">
+                    <input id="inpt" type="text" placeholder="Enter City Name">
+                    <button id="btn">Search</button>
+                </div>
+            </div>
+            <div class="weather_output_main flex justify-center">
+                <div class="weather_output_inner">
+                    <p id="prevMsg">Your <span>Search</span> Appears Here.......</p>
+                    <div id="output" class="flex flex-col justify-center items-start gap-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
